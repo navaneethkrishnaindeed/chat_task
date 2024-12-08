@@ -211,7 +211,7 @@ class CourseScreen extends ConsumerWidget {
                                     mainAxisAlignment: MainAxisAlignment.start,
                                     children: [
                                       CircleAvatar(
-                                        backgroundImage: AssetImage(AssetPaths.courseScreenAssets.face),
+                                        backgroundImage: NetworkImage(qnas[index].studentProfilePic),
                                         radius: 20.r,
                                       ),
                                       // Expanded(child: SizedBox())
@@ -273,7 +273,7 @@ class CourseScreen extends ConsumerWidget {
                                         mainAxisAlignment: MainAxisAlignment.start,
                                         children: [
                                           CircleAvatar(
-                                            backgroundImage: AssetImage(AssetPaths.courseScreenAssets.face),
+                                            backgroundImage: NetworkImage(e.studentProfilePic),
                                             radius: 20.r,
                                           ),
                                           // Expanded(child: SizedBox())
